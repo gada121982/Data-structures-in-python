@@ -5,8 +5,6 @@ class Node:
 
 
 class List:
-    checkvalue = 'checkvalue'
-
     def __init__(self):
         self.head = None
         self.tail = None
@@ -54,6 +52,3 @@ for i in range(5):
 linklist.insert_node_pre(100)
 
 linklist.printlist()
-
-
-print linklist.checkvalue
